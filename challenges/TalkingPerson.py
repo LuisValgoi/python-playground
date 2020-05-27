@@ -1,4 +1,4 @@
-class Person:
+class TalkingPerson:
     def __init__(self, name):
         self.name = name
 
@@ -6,5 +6,5 @@ class Person:
         print(f'My Name is: {self.name}')
 
 
-person = Person('Luis')
+person = TalkingPerson('Luis')
 person.tell_me_your_name()
