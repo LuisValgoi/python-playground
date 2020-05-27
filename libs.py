@@ -1,4 +1,7 @@
 #https://docs.python.org/3/library/math.html
 import math
-value = math.factorial(5)
-print(value)
+import spacer
+
+print(math.factorial(5))
+spacer.give_space()
+print(math.factorial(50))
